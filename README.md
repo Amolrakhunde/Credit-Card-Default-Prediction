@@ -34,14 +34,18 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 * Support Vector Machine
 * Gradient Boosting
 * XG Boosting
+* Cross Validation & Hyperparameter Tunning
 * Comparison of Model
 * Combined ROC Curve
 * Feature Importance
 
 ## Conclusion:-
 
-1. Random Forest classifier shows highest test accuracy of 86.3% and F1 score of 85.7%.
+1. From all baseline model, Random Forest classifier shows highest test accuracy and F1 score and AUC.
 
-2. Decision tree model shows lowest test accuracy and F1 score but train accuracy is 100%
+2. Baseline model of Random Forest and decision tree shows huge difference in train and test accuracy which shows overfitting.
 
-3. Random Forest model and decision tree model have huge difference in train and test accuracy which shows overfitting.
+3. After cross validation and hyperparameter tunning, XG Boost shows highest test accuracy score of 87% and AUC is 0.874.
+
+4. Cross validation and hyperparameter tunning certainly reduces chances of overfitting and also increases performance of model.
+
