@@ -1,51 +1,79 @@
-# Credit-Card-Default-Prediction
-## Problem Statement:
+<h1 align="center"> Credit Card Default Prediction </h1>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<p align="center"> 
+<img src="https://miro.medium.com/max/1400/1*uZyt9Z189siaNsAlIDtjEg.jpeg" height="382px">
+</p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📋 Summary
 The main objective is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients.
+This would inform the issuer’s decisions on who to give a credit card to and what credit limit to provide. It would also help the issuer have a better understanding of their current and potential customers, which would inform their future strategy, including their planning of offering targeted credit products to their customers.
 
-## Data Features:-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following variables as explanatory variables:
+##  💾 Project Files Description
 
+This Project includes 1 colab notebook, 1 technical documentation as well as 1 presentation:
 
-* ID: Unique ID of each client
-* LIMIT_BAL: Amount of the given credit (NT dollar).
-* Gender: Gender of customer. (1 = male; 2 = female)
-* Education: Education qualification of customers. (1 = graduate school; 2 = university; 3 = high school; 4 = others)
-* Marital Status: Marital status of customer. (1 = married; 2 = single; 3 = others)
-* Age: Age of customer in years.
-* History of Past Payment: We tracked the past monthly payment records from April to September, 2005.
-* PAY_1, PAY_2, PAY_3, PAY_4, PAY_5 and PAY_6 are repayment status in September, August, July, June, May and April 2005 respectively.
-* Amount of Bill Statement:(NT dollar)
-* BILL_AMT1, BILL_AMT2, BILL_AMT3, BILL_AMT4, BILL_AMT5 and BILL_AMT6 are amount of bill statement in September, August, July, June, May and April 2005 respectively.
-* Amount of Previous Payment: (NT dollar)
-* PAY_AMT1, PAY_AMT2, PAY_AMT2, PAY_AMT2, PAY_AMT2 and PAY_AMT2 are amount of previous payment in September, August, July, June, May and April 2005 respectively
-* Default Payment Next Month: Default payment (1=yes, 0=no)
+Executable Files:
+- [Credit Card Default Prediction](https://github.com/Amolrakhunde/Credit-Card-Default-Prediction/blob/main/Credit_Card_Default_Prediction_Amol.ipynb) - Includes all functions required for clustering operations.
+Output:
+- [Google Colab](https://github.com/Amolrakhunde/Credit-Card-Default-Prediction/blob/main/Credit_Card_Default_Prediction_Amol.ipynb) - All the outputs are visible in the provided colab notebook.
+Data Source:
+- [Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset) - Dataset taken from kaggle.
 
-## Steps Involved:-
-* Data Cleaning
-* Data Preprocessing
-* EDA
-* Handling Class Imbalance
-* Transformation & Splitting of data
-* Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
-* Support Vector Machine
-* Gradient Boosting
-* XG Boosting
-* Cross Validation & Hyperparameter Tunning
-* Comparison of Model
-* Combined ROC Curve
-* Feature Importance
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Conclusion:-
+## 📖 Binary Classification Model
 
-1. From all baseline model, Random Forest classifier shows highest test accuracy and F1 score and AUC.
+I have used Classification algorithms such Logisitic Regression, Decision Tree, Ensemble Techniques and SVC. Later I performed cross validation and hyperparameter tuning, in order to overcome overfitting and increase performance of model. 
 
-2. Baseline model of Random Forest and decision tree shows huge difference in train and test accuracy which shows overfitting.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-3. After cross validation and hyperparameter tunning, XG Boost shows highest test accuracy score of 87% and AUC is 0.874.
+## 📋 Execution Instruction
 
-4. Cross validation and hyperparameter tunning certainly reduces chances of overfitting and also increases performance of model.
+The order of execution of the colab notebook is as follows:
+
+### 1. [Credit Card Default Prediction](https://github.com/Amolrakhunde/Credit-Card-Default-Prediction/blob/main/Credit_Card_Default_Prediction_Amol.ipynb) 
+- First, click on the open in colab button present on the top center of the notebook.
+
+### 2. [Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+- Downlaod the dataset from kaggle through provided link.Then, connect to the runtime and execute the cell to mount the drive or upload the data file to the current runtime.
+
+### 3. File Path
+- Finally, delete the path in the dataset loading cell and replace it with the path of your current data file. Run each cell to see the output below it.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 🔗 Credits
+#### Amol Rakhunde | Avid Learner | Data Scientist | Machine Learning Enthusiast | Deep Learning Enthusiast
+
+Contact me for Data Science Project Collaborations
+
+[![GitHub](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Amolrakhunde)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amol-rakhunde/)
+[![Medium](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@amol_rakhunde)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 🛠 Skills
+Deep Learning, Machine Learning, SQL, Python, Tableau
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📚 References
+
+- [Credit Card Default Prediction & Analysis. [Online - Kaggle.com]](https://www.kaggle.com/code/ainslie/credit-card-default-prediction-analysis/notebook)
+- [Predicting Credit Card Defaults with Machine Learning. [Online - Medium.com ]](https://medium.com/swlh/predicting-credit-card-defaults-with-machine-learning-fcc8da2fdafb)
+- [Ensemble Methods in Machine Learning: What are They and Why Use Them? [Online - towardsdatascience.com]](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📜 Feedback
+
+If you have any feedback, please reach out to us at amolsr92@gmail.com
+
 
